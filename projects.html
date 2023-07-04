@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="website portfolio">
+  <meta name="keywords" content="portfolio Aleksandr Popov">
+  <meta name="author" content="Aleksandr Popov">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="./" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__item"><a href="./index.html" style="--i:1;" class="navbar__link">Home</a></li>
+        <li class="navbar__item"><a href="./skills.html" style="--i:2;" class="navbar__link">Skills</a></li>
+        <li class="navbar__item"><a href="#" style="--i:3;" class="navbar__link active">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main>
+    <section class="projects">
+      <h2>My projects</h2>
+      <ul class="projects__list">
+        <li class="projects__items" style="--i:5;">
+          <a href="https://aleksp7486.github.io/goit-fe-course-updated/markup/hw-08/" target="_blank"
+            class="projects__link">
+            <article class="project-card">
+              <div class="project-card__image-wrap">
+                <div class="project-card__overlay">
+                  <p class="project-card__overlay-text">
+                    A website with a responsive layout. Role: developer. Build project on Github, check for build errors
+                    and live page performance.
+                  </p>
+                </div>
+                <picture>
+                  <img class="project-card__image" src="images/projects/web_studio.jpg" alt="image website"
+                    srcset="images/projects/web_studio@2x.jpg 2x">
+                </picture>
+              </div>
+              <div class="project-card__cont">
+                <h3 class="project-card__title">Web studio</h3>
+                <p class="project-card__description">Html Scss JS</p>
+              </div>
+            </article>
+          </a>
+        </li>
+        <li class="projects__items" style="--i:6;">
+          <a href="https://aleksp7486.github.io/goit-js-hw-11/" target="_blank" class="projects__link">
+            <article class="project-card">
+              <div class="project-card__image-wrap">
+                <div class="project-card__overlay">
+                  <p class="project-card__overlay-text">
+                    Image Search Application. Role: developer. Vanilla javascript, rest api, ajax. Deploy project on
+                    Github.
+                  </p>
+                </div>
+                <picture>
+                  <img class="project-card__image" src="images/projects/image_gallery.jpg" alt="image website"
+                    srcset="images/projects/image_gallery@2x.jpg 2x">
+                </picture>
+              </div>
+              <div class="project-card__cont">
+                <h3 class="project-card__title">
+                  Image gallery
+                </h3>
+                <p class="project-card__description">JS Rest api Ajax</p>
+              </div>
+            </article>
+          </a>
+        </li>
+        <li class="projects__items" style="--i:7;">
+          <a href="https://aleksp7486.github.io/goit-react-hw-08-phonebook/" target="_blank" class="projects__link">
+            <article class="project-card">
+              <div class="project-card__image-wrap">
+                <div class="project-card__overlay">
+                  <p class="project-card__overlay-text">
+                    Phone book application. Role: developer.
+                    App component with Public and Private routes, AuthPage page logic. Deploy project on Github.
+                  </p>
+                </div>
+                <picture>
+                  <img class="project-card__image" src="images/projects/phone_book.jpg" alt="image website"
+                    srcset="images/projects/phone_book@2x.jpg 2x">
+                </picture>
+              </div>
+              <div class="project-card__cont">
+                <h3 class="project-card__title">Phone book</h3>
+                <p class="project-card__description">React Redux Toolkit</p>
+              </div>
+            </article>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+
+</html>
