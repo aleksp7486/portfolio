@@ -1,14 +1,11 @@
 .projects {
-  padding: 100px 10% 0;
+  padding: 120px 10% 0;
 }
 
 .projects h2 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 30px;
-  opacity: 0;
-  animation: slideLeft 1s ease forwards;
-  animation-delay: 0.7s;
   @media (min-width: 601px) {
     font-size: 32px;
   }
