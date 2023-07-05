@@ -9,3 +9,9 @@ body {
   background-color: #1f242d;
   color: $white-color;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
